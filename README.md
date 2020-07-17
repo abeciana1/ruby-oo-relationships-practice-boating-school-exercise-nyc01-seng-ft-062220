@@ -42,3 +42,15 @@ power_steering_pass = patrick.add_boating_test("Power Steering 201", "passed", k
 ```
 
 ![](https://media.giphy.com/media/GwYxLtDaB3Wso/giphy.gif)
+
+
+Student 
+     - Student has many boating tests
+
+Instructor
+    - Instructor has many boating tests
+
+BoatingTest
+    - SSOT
+    - Belongs to Student
+    - Belong to Instructor
